@@ -1,0 +1,39 @@
+// Variables
+  //Couleurs
+$color1: rgb(220, 220, 220);
+$color2: rgb(20, 5, 5);
+
+
+  //Fonts
+@font-face {
+  font-family: "Inter";
+  src: url(/assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(/assets/fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+
+// Mixins
+@mixin centerChild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin columnChild {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+// Autres réglages
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  background: url(/assets/img/bg.jpg) fixed;
+  background-position: center;
+}

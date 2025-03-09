@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Inter";
+  src: url(/assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(/assets/fonts/Merriweather/Merriweather-Regular.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url(/assets/img/bg.jpg) fixed;
+  background-position: center;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 150px 0;
+}
+.main .main-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.main .main-title h1 {
+  font-family: "Inter";
+  color: rgb(220, 220, 220);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 3rem;
+  font-weight: 700;
+  max-width: 55%;
+}
+.main p {
+  margin: 40px 0;
+  color: rgb(220, 220, 220);
+  font-style: italic;
+}/*# sourceMappingURL=style.css.map */

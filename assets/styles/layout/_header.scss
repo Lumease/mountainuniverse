@@ -1,0 +1,26 @@
+.main {
+  @include columnChild;
+  padding: 150px 0;
+  
+  .main-title {
+    @include centerChild;
+    text-align: center;
+
+    h1 {
+      font-family: "Inter";
+      color: $color1;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      font-size: 3rem;
+      font-weight: 700;
+      max-width: 55%;
+    }
+  }
+  
+
+  p {
+    margin: 40px 0;
+    color:  $color1;
+    font-style: italic;
+  }  
+}
