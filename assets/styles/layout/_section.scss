@@ -1,0 +1,60 @@
+.content {
+    background: whitesmoke;
+}
+
+.main-content {
+    @include columnChild;
+
+    h4 {
+        margin: 15px;
+    }
+    h2 {
+        margin: 15px;
+        width: 60%;
+        font-family: Inter;
+        font-size: 2rem;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    p { 
+        margin-bottom: 30px;
+        width: 75%;
+        font-style: italic;
+        line-height: 30px;
+    }
+    img {
+        max-height: 90%;
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+
+}
+
+.second-content {
+    @include centerChild;
+
+    p {
+        max-width: 90%;
+        margin: 20px auto;
+        line-height: 30px;
+        color: rgb(60, 60, 60)
+    }
+
+    h4, .btn-container{
+        @include centerChild;
+    }
+    h3 {
+        font-family: "Inter";
+        font-size: 1rem;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        width: 55%;   
+        margin: auto;
+
+    }
+    img {
+        height: 80%;
+        width: 80%;
+        padding: auto;
+    }
+}

@@ -1,0 +1,15 @@
+button {
+    padding: 10px 30px;
+    background: none;
+    border: 1px solid black;
+    font-family: "Inter", sans serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    &:hover {
+        cursor: pointer;
+        color: rgb(0, 72, 255);
+        border-color: rgb(0, 72, 255);
+        }
+    }
+

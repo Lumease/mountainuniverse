@@ -13,14 +13,19 @@
       letter-spacing: 5px;
       font-size: 3rem;
       font-weight: 700;
-      max-width: 55%;
+      max-width: 70%;
     }
   }
-  
 
   p {
     margin: 40px 0;
     color:  $color1;
     font-style: italic;
   }  
+
+  .main-content {
+    p {
+      margin: 0;
+    }
+  }
 }

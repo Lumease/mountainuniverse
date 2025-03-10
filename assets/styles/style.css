@@ -7,9 +7,10 @@
   src: url(/assets/fonts/Merriweather/Merriweather-Regular.ttf);
 }
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  height: 100vh;
+  height: 2500px;
+  width: 80%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: url(/assets/img/bg.jpg) fixed;
@@ -48,10 +49,120 @@ body {
   letter-spacing: 5px;
   font-size: 3rem;
   font-weight: 700;
-  max-width: 55%;
+  max-width: 70%;
 }
 .main p {
   margin: 40px 0;
   color: rgb(220, 220, 220);
   font-style: italic;
+}
+.main .main-content p {
+  margin: 0;
+}
+
+.content {
+  background: whitesmoke;
+}
+
+.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.main-content h4 {
+  margin: 15px;
+}
+.main-content h2 {
+  margin: 15px;
+  width: 60%;
+  font-family: Inter;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.main-content p {
+  margin-bottom: 30px;
+  width: 75%;
+  font-style: italic;
+  line-height: 30px;
+}
+.main-content img {
+  max-height: 90%;
+  max-width: 90%;
+  margin-bottom: 30px;
+}
+
+.second-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.second-content p {
+  max-width: 90%;
+  margin: 20px auto;
+  line-height: 30px;
+  color: rgb(60, 60, 60);
+}
+.second-content h4, .second-content .btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.second-content h3 {
+  font-family: "Inter";
+  font-size: 1rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  width: 55%;
+  margin: auto;
+}
+.second-content img {
+  height: 80%;
+  width: 80%;
+  padding: auto;
+}
+
+button {
+  padding: 10px 30px;
+  background: none;
+  border: 1px solid black;
+  font-family: "Inter", sans serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+button:hover {
+  cursor: pointer;
+  color: rgb(0, 72, 255);
+  border-color: rgb(0, 72, 255);
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }/*# sourceMappingURL=style.css.map */
