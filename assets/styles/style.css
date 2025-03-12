@@ -17,6 +17,28 @@ body {
   background-position: center;
 }
 
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.289);
+}
+
+.nav-list ul {
+  list-style-type: none;
+  font-family: Inter;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;

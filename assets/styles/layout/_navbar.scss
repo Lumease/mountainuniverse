@@ -1,0 +1,16 @@
+.nav {
+    @include spaceChild;
+    background-color: rgba(255, 255, 255, 0.289)
+}
+
+.nav-list {
+
+    ul {
+        list-style-type: none;
+        font-family: Inter;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}

@@ -27,6 +27,11 @@ $color2: rgb(20, 5, 5);
   flex-direction: column;
 }
 
+@mixin spaceChild {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 // Autres réglages
 body {
