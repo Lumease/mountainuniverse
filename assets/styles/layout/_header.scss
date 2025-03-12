@@ -1,8 +1,9 @@
-.main {
+.header {
   @include columnChild;
   padding: 150px 0;
-  
-  .main-title {
+}
+
+  .header-title {
     @include centerChild;
     text-align: center;
 
@@ -17,15 +18,28 @@
     }
   }
 
-  p {
-    margin: 40px 0;
-    color:  $color1;
-    font-style: italic;
-  }  
-
-  .main-content {
+  .header-content {
     p {
-      margin: 0;
-    }
+      margin: 40px 0;
+      color:  $color1;
+      font-style: italic;
   }
+    a {
+      @include centerChild;
+      text-decoration: none;
+      cursor: default;
+
+      i {
+        color: white;
+        border: 1px solid white;
+        border-radius: 100%;
+        padding: 15px;
+
+        &:hover {
+          cursor: pointer;
+          color: brown;
+          border-color: brown;
+        }
+      }
+    }
 }
