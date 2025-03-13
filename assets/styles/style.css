@@ -31,18 +31,55 @@ body {
   background-color: rgba(255, 255, 255, 0.289);
 }
 
+.nav-list {
+  min-width: 45%;
+}
 .nav-list ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
   padding: 0;
   list-style-type: none;
   font-family: Inter;
   color: white;
   text-transform: uppercase;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 500;
+}
+.nav-list li {
+  color: white;
+}
+.nav-list li:hover {
+  cursor: pointer;
+  color: brown;
+}
+
+.nav-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 35%;
+  gap: 60px;
+}
+.nav-social a {
+  font-size: 20px;
+  color: white;
+}
+.nav-social a:hover {
+  color: brown;
 }
 
 .header {
@@ -135,7 +172,7 @@ body {
 }
 .main-content h2 {
   margin: 15px;
-  width: 60%;
+  width: 40%;
   font-family: Inter;
   font-size: 2rem;
   letter-spacing: 3px;
