@@ -58,10 +58,10 @@
 
     .img-left,.img-right {
         @include centerChild;
-        object-fit: cover;
         
         img {
             width: 90%;
+            height: 90%;
         }
     }
 }
