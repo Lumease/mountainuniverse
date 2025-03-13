@@ -1,6 +1,6 @@
 .header {
   @include columnChild;
-  padding: 150px 0;
+  padding: 250px 0;
 }
 
   .header-title {
@@ -12,15 +12,15 @@
       color: $color1;
       text-transform: uppercase;
       letter-spacing: 5px;
-      font-size: 3rem;
+      font-size: 4rem;
       font-weight: 700;
-      max-width: 70%;
+      max-width: 65%;
     }
   }
 
   .header-content {
     p {
-      margin: 40px 0;
+      margin: 0;
       color:  $color1;
       font-style: italic;
   }
@@ -41,5 +41,8 @@
           border-color: brown;
         }
       }
+    }
+    .arrow {
+      margin-top: 100px;
     }
 }
