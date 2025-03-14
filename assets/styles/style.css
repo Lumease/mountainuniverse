@@ -273,12 +273,15 @@ button:hover {
 
 .form {
   display: grid;
-  grid-template-rows: repeat(6, 1fr);
-  grid-template-areas: "i1" "ga";
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "input1" "input2" "texta" "texta";
 }
-.form label {
-  grid-area: i1;
+
+div {
+  grid-area: input1;
 }
-.form #name {
-  grid-area: ga;
+
+.texta {
+  grid-area: texta;
 }/*# sourceMappingURL=style.css.map */

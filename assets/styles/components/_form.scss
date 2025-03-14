@@ -4,18 +4,16 @@
 
 .form {
     display: grid;
-    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
     grid-template-areas: 
-    "i1"
-    "ga";
-
-    label {
-        grid-area: i1;
-    }
-    #name {
-        grid-area: ga;
-    }
-
-
+    "input1" "input2"
+    "texta""texta";
+}
+div {
+    grid-area: input1;
+}
+.texta {
+    grid-area: texta;
 }
 
