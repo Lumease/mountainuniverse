@@ -10,7 +10,6 @@ body {
   margin: 0 auto;
   padding: 0;
   height: 2500px;
-  width: 80%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: url(/assets/img/bg.jpg) fixed;
@@ -29,6 +28,7 @@ body {
           justify-content: space-between;
   height: 70px;
   background-color: rgba(255, 255, 255, 0.289);
+  padding: 5px;
 }
 
 .nav-list {
@@ -50,7 +50,7 @@ body {
   font-family: Inter;
   color: white;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 .nav-list li {
@@ -269,4 +269,16 @@ button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.form {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas: "i1" "ga";
+}
+.form label {
+  grid-area: i1;
+}
+.form #name {
+  grid-area: ga;
 }/*# sourceMappingURL=style.css.map */
