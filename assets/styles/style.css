@@ -269,13 +269,27 @@ button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .form {
+  width: 50%;
   display: grid;
 }
 
-#name, #email, #textarea {
+#name, #email, #message {
   padding: 10px;
   font-family: Inter;
+}
+
+#message {
+  resize: none;
+  height: 50px;
+}
+
+.contact {
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */
