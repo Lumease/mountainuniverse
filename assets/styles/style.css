@@ -9,7 +9,7 @@
 body {
   margin: 0 auto;
   padding: 0;
-  height: 2500px;
+  min-height: 4000px;
   width: 80%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -242,6 +242,11 @@ body {
   max-width: 80%;
   line-height: 30px;
   color: rgb(75, 74, 74);
+}
+
+.contact-content > div {
+  display: grid;
+  grid-template-columns: 30% 70%;
 }
 
 button {
