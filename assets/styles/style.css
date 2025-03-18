@@ -202,42 +202,27 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.second-content p {
-  max-width: 80%;
-  margin: 0 auto;
-  line-height: 30px;
-  color: rgb(60, 60, 60);
-}
-.second-content h4, .second-content .btn-container {
+.second-content .left-content, .second-content .right-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .second-content h3 {
   font-family: "Inter";
-  font-size: 1rem;
-  letter-spacing: 3px;
+  font-weight: 700;
   text-transform: uppercase;
-  width: 45%;
-  margin: auto;
+  white-space: pre-line;
+  letter-spacing: 3px;
 }
-.second-content .img-left, .second-content .img-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 25px 0;
+.second-content img {
+  max-width: 95%;
 }
 
 button {
