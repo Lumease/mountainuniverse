@@ -34,8 +34,8 @@
     @include centerChild;
 
     p {
-        max-width: 90%;
-        margin: 20px auto;
+        max-width: 80%;
+        margin: 0 auto;
         line-height: 30px;
         color: rgb(60, 60, 60);
     }
@@ -51,17 +51,21 @@
         width: 45%;   
         margin: auto;
     }
-
-    .left-content, .right.content {
-        padding: 15px;
-    }
-
-    .img-left,.img-right {
+    .img-left, .img-right {
         @include centerChild;
-        
-        img {
-            width: 90%;
-            height: 90%;
-        }
+        margin: 25px 0;
     }
+
+    // .left-content, .right.content {
+    //     padding: 15px;
+    // }
+
+    // .img-left,.img-right {
+    //     @include centerChild;
+        
+    //     img {
+    //         width: 90%;
+    //         height: 90%;
+    //     }
+    // }
 }

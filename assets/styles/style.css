@@ -10,6 +10,7 @@ body {
   margin: 0 auto;
   padding: 0;
   height: 2500px;
+  width: 80%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: url(/assets/img/bg.jpg) fixed;
@@ -202,8 +203,8 @@ body {
           align-items: center;
 }
 .second-content p {
-  max-width: 90%;
-  margin: 20px auto;
+  max-width: 80%;
+  margin: 0 auto;
   line-height: 30px;
   color: rgb(60, 60, 60);
 }
@@ -226,9 +227,6 @@ body {
   width: 45%;
   margin: auto;
 }
-.second-content .left-content, .second-content .right.content {
-  padding: 15px;
-}
 .second-content .img-left, .second-content .img-right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -239,10 +237,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-.second-content .img-left img, .second-content .img-right img {
-  width: 90%;
-  height: 90%;
+  margin: 25px 0;
 }
 
 button {
