@@ -244,7 +244,7 @@ body {
   color: rgb(75, 74, 74);
 }
 
-.contact-content > div {
+.contact-content div {
   display: grid;
   grid-template-columns: 30% 70%;
 }
