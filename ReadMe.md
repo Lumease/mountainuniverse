@@ -15,7 +15,7 @@ Vous devrez télécharger git bash (pour Windows et Mac). Pour Mac, il s'agit de
 Après l'avoir lancé, entrez les commandes suivantes :
 
 - 'cd Desktop'
-- 'git clone https://github.com/Lumease/run.git'
+- 'git clone https://github.com/Lumease/mountainuniverse.git'
 - Accédez à votre éditeur de code, puis ouvez le dossier.
 
 ou téléchargez le format compressé ZIP.
@@ -33,7 +33,7 @@ Pour le publier:
 
 Puis :
 
-- Ouvrez le terminal, puis entrez les commandes suivantes :
+- Ouvrez le terminal, et entrez les commandes suivantes :
 
   - 'cd Desktop/nom-du-fichier'
   - 'git add .'
