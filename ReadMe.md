@@ -19,16 +19,17 @@ Vous devrez :
 Pour le publier:
 
 - Ouvrez le terminal, puis :
-  'cd Desktop/nom-du-fichier'
-  'git add .'
-  'git commit -m "Message-que-vous-souhaitez" '
-  'git push -u origin main'
+
+  - 'cd Desktop/nom-du-fichier'
+  - 'git add .'
+  - 'git commit -m "Message-que-vous-souhaitez" '
+  - 'git push -u origin main'
 
 - Depuis VS Code :
   Sélectionner "Bash3 dans le terminal, puis :
-  'git add .'
-  'git commit -m "Message-que-vous-souhaitez" '
-  'git push -u origin main'
+  - 'git add .'
+  - 'git commit -m "Message-que-vous-souhaitez" '
+  - 'git push -u origin main'
 
 ## Auteur
 
