@@ -51,3 +51,59 @@ Puis :
 ## Auteur
 
 Lumease - 2025.
+
+--
+
+# Welcome to the "Mountain Universe" project!
+
+This is a showcase website model currently under development. You can follow the integration process via the updated code on GitHub.
+
+## Description
+
+This project is part of the "Mastering Front-End" course and will allow you to have a fully customizable showcase website once completed.
+
+## Modifications and Publishing the Model
+
+Are you a beginner and want to get this model?
+
+You’ll need to download Git Bash (for Windows and Mac). For Mac, it's the Terminal app.
+
+After launching it, enter the following commands:
+
+- 'cd Desktop'
+- 'git clone https://github.com/Lumease/mountainuniverse.git'
+- Go to your code editor, then open the folder.
+
+Or download the ZIP compressed format.
+
+--
+
+To publish:
+
+- Follow these instructions after creating an account:
+
+  - Open the terminal, then enter:
+    - 'git config --global user.name "Username"'
+    - 'git config --global user.email "my@mail.com"'
+    - 'git config --global --list' : To check if the name and email are correctly registered.
+
+Then:
+
+- Open the terminal and enter the following commands:
+
+  - 'cd Desktop/folder-name'
+  - 'git add .'
+  - 'git commit -m "Message-you-want"'
+  - 'git push -u origin main'
+
+- From VS Code:
+
+  Select "Bash" in the terminal, then enter:
+
+  - 'git add .'
+  - 'git commit -m "Message-you-want"'
+  - 'git push -u origin main'
+
+## Author
+
+Lumease - 2025.
