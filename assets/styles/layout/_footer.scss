@@ -1,4 +1,16 @@
-.contact-content div {
-    display: grid;
-    grid-template-columns: 30% 70%;
+.contact-content {
+
+    .address, .phone, .email {
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+    .social {
+        display: flex;
+        align-items: center;
+    }
+    .social-icon {
+        display: flex;
+    }
+
 }
+

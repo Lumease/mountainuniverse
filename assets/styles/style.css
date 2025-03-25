@@ -244,9 +244,22 @@ body {
   color: rgb(75, 74, 74);
 }
 
-.contact-content div {
+.contact-content .address, .contact-content .phone, .contact-content .email {
   display: grid;
   grid-template-columns: 30% 70%;
+}
+.contact-content .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact-content .social-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 button {
