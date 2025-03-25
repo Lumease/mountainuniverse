@@ -244,22 +244,22 @@ body {
   color: rgb(75, 74, 74);
 }
 
-.contact-content .address, .contact-content .phone, .contact-content .email {
+.contact-content > div {
   display: grid;
   grid-template-columns: 30% 70%;
-}
-.contact-content .social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
-.contact-content .social-icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.contact-content > div .social-icon a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: black;
+}
+.contact-content > div .social-icon i {
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 10px;
 }
 
 button {

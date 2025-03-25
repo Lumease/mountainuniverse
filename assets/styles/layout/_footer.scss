@@ -1,16 +1,16 @@
-.contact-content {
+.contact-content > div {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
 
-    .address, .phone, .email {
-        display: grid;
-        grid-template-columns: 30% 70%;
+    .social-icon a {
+        margin-right: 30px;
+        text-decoration: none;
+        color: black;
     }
-    .social {
-        display: flex;
-        align-items: center;
+    .social-icon i {
+        border: 1px solid black;
+        border-radius: 100%;
+        padding: 10px;
     }
-    .social-icon {
-        display: flex;
-    }
-
 }
-
