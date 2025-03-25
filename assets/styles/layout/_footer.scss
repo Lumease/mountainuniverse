@@ -1,16 +1,38 @@
 .contact-content > div {
     display: grid;
     grid-template-columns: 30% 70%;
+    min-height: 120px;
     align-items: center;
+    color: gray;
 
+    h4 {
+        font-family: Inter;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        margin: 0 50px ;
+    }
+    p {
+        word-wrap: pre-wrap;
+    }
+    .social-icon {
+        display: flex;
+    }
     .social-icon a {
-        margin-right: 30px;
+        margin-right: 10px;
         text-decoration: none;
         color: black;
     }
-    .social-icon i {
-        border: 1px solid black;
-        border-radius: 100%;
-        padding: 10px;
+    .social-icon i{
+        @include centerChild;
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        width: 38px;
+        height: 38px;
+
+        &:hover {
+            cursor: pointer;
+            color: brown;
+            border-color: brown;
+        }
     }
 }
