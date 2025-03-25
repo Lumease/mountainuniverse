@@ -259,9 +259,6 @@ body {
   text-transform: uppercase;
   margin: 0 50px;
 }
-.contact-content > div p {
-  word-wrap: pre-wrap;
-}
 .contact-content > div .social-icon {
   display: -webkit-box;
   display: -ms-flexbox;
