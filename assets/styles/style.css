@@ -326,6 +326,10 @@ button:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-left: 50px;
 }
 
 .form {
@@ -334,5 +338,13 @@ button:hover {
 }
 .form .form-grid {
   display: grid;
-  grid-template-areas: "label1 name" "label2 email" "texta ta";
+  grid-template-areas: "label1" "name" "label2" "email" "texta" "ta";
+}
+.form label {
+  display: block;
+}
+.form input {
+  font-family: Monserrat, sans-serif;
+  width: 90%;
+  padding: 5px;
 }/*# sourceMappingURL=style.css.map */
