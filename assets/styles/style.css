@@ -256,8 +256,15 @@ body {
 .contact-content > div h4 {
   font-family: Inter;
   font-size: 0.75rem;
+  font-weight: 800;
+  color: rgb(80, 80, 80);
+  letter-spacing: 1px;
   text-transform: uppercase;
   margin: 0 50px;
+}
+.contact-content > div span {
+  display: block;
+  margin: 0 auto;
 }
 .contact-content > div .social-icon {
   display: -webkit-box;
