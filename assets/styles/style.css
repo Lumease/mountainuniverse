@@ -262,9 +262,8 @@ body {
   text-transform: uppercase;
   margin: 0 50px;
 }
-.contact-content > div span {
-  display: block;
-  margin: 0 auto;
+.contact-content > div p {
+  margin: 0;
 }
 .contact-content > div .social-icon {
   display: -webkit-box;
