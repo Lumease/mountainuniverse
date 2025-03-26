@@ -6,23 +6,19 @@
 }
 
 .form {
-    width: 50%;
     display: grid;
-}
-
-#name, #email, #message{
-    padding: 10px;
-    font-family: Inter;
-} 
-
-#message {
-    resize: none;
-    height: 50px;
-}
-.contact {
     width: 50%;
-    
-    h4{
-        color: rgb(39, 38, 38);
+
+    .form-grid {
+        display: grid;
+        // grid-template-rows:  1fr 1fr 1fr;s
+        grid-template-areas: 
+        "label1 name"
+        "label2 email"
+        "texta ta";
     }
+
+
+    
 }
+
