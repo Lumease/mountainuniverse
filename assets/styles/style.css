@@ -195,55 +195,6 @@ body {
   margin-bottom: 30px;
 }
 
-.second-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 100px 0;
-}
-.second-content .left-content, .second-content .right-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-.second-content h4 {
-  margin: 10px 0;
-  font-size: 0.8rem;
-  font-family: "Merriweather";
-  font-weight: 100;
-  color: rgb(75, 74, 74);
-}
-.second-content h3 {
-  font-family: "Inter";
-  font-weight: 700;
-  text-transform: uppercase;
-  white-space: pre-line;
-  letter-spacing: 3px;
-}
-.second-content img {
-  max-width: 95%;
-  margin: 0 auto;
-}
-.second-content p {
-  margin: 30px 0;
-  max-width: 80%;
-  line-height: 30px;
-  color: rgb(75, 74, 74);
-}
-
 .contact-content > div {
   display: grid;
   grid-template-columns: 30% 70%;
