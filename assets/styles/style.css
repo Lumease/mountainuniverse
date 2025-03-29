@@ -195,6 +195,36 @@ body {
   margin-bottom: 30px;
 }
 
+.second-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.second-content .left-content, .second-content .right-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.second-content .img-right {
+  width: 80%;
+}
+.second-content .second-content, .second-content .right-content img, .second-content .left-content img {
+  width: 80%;
+}
+
 .contact-content > div {
   display: grid;
   grid-template-columns: 30% 70%;

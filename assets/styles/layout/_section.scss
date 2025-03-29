@@ -33,4 +33,17 @@
     }
 
 }
+ 
+.second-content {
+    @include centerChild;
 
+    .left-content, .right-content {
+        @include columnChild;
+    }
+    .img-right {
+        width: 80%;
+    }
+    .second-content, .right-content img, .left-content img {
+        width: 80%;
+    }
+}
