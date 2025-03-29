@@ -33,17 +33,28 @@
     }
 
 }
- 
+
 .second-content {
     @include centerChild;
+    gap: 80px;
+    padding: 50px;
 
     .left-content, .right-content {
         @include columnChild;
     }
-    .img-right {
-        width: 80%;
+    .img-left, .img-right {
+        width: 500px;
+        padding: 20px;
     }
-    .second-content, .right-content img, .left-content img {
-        width: 80%;
+    .img-left img, .img-right img {
+        width: 100%;
+        height: auto;
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 0 20px;
+        margin: 0 0 15px 0;
+        color: rgb(80, 80, 80);
     }
 }

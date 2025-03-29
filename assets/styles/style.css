@@ -205,6 +205,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 80px;
+  padding: 50px;
 }
 .second-content .left-content, .second-content .right-content {
   display: -webkit-box;
@@ -218,11 +220,20 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.second-content .img-right {
-  width: 80%;
+.second-content .img-left, .second-content .img-right {
+  width: 500px;
+  padding: 20px;
 }
-.second-content .second-content, .second-content .right-content img, .second-content .left-content img {
-  width: 80%;
+.second-content .img-left img, .second-content .img-right img {
+  width: 100%;
+  height: auto;
+}
+.second-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0 20px;
+  margin: 0 0 15px 0;
+  color: rgb(80, 80, 80);
 }
 
 .contact-content > div {
