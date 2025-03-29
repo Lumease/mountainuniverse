@@ -39,6 +39,18 @@
     gap: 80px;
     padding: 50px;
 
+    h4 {
+        font-size: 0.8rem;
+        font-family: "Merriweather";
+        font-weight: 100;
+        color: rgb(75, 74, 74);
+    }
+    h3 {
+        white-space: pre-line;
+        font-family: Inter;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
     .left-content, .right-content {
         @include columnChild;
     }

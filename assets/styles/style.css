@@ -208,6 +208,18 @@ body {
   gap: 80px;
   padding: 50px;
 }
+.second-content h4 {
+  font-size: 0.8rem;
+  font-family: "Merriweather";
+  font-weight: 100;
+  color: rgb(75, 74, 74);
+}
+.second-content h3 {
+  white-space: pre-line;
+  font-family: Inter;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
 .second-content .left-content, .second-content .right-content {
   display: -webkit-box;
   display: -ms-flexbox;
