@@ -6,12 +6,24 @@
     @include columnChild;
 
     h4 {
+        position: relative;
         margin: 50px 0;
         font-size: 0.8rem;
         font-family: "Merriweather";
         font-weight: 100;
         color: rgb(75, 74, 74);
-    }
+
+        h4:after {
+                content: "lalala";
+                position: absolute;
+                width: 100%;
+                height: 1px;
+                background: rgb(206, 205, 205);
+                top: 50px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
     h1 {
         margin: 30px 0 20px 0;
         white-space: pre-line;
@@ -39,6 +51,7 @@
     gap: 80px;
     padding: 100px;
     position: relative;
+
 
     h4 {
         font-size: 0.8rem;
@@ -82,3 +95,4 @@
     left: 50%;
     transform: translateX(-50%);
 }
+
