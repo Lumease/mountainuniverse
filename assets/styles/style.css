@@ -109,7 +109,7 @@ body {
           align-items: center;
   text-align: center;
 }
-.header-title h2 {
+.header-title h1 {
   font-family: "Inter";
   color: rgb(220, 220, 220);
   text-transform: uppercase;
@@ -334,6 +334,11 @@ body {
   }
   .nav-social {
     display: none;
+  }
+  .main-content h2 {
+    font-size: 2rem;
+    letter-spacing: 5px;
+    width: 40%;
   }
   .second-content {
     display: block;
