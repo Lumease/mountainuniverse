@@ -1,0 +1,25 @@
+@media screen and (max-width: 900px) {
+  body {
+    width: 90%;
+  }
+  .header-title {
+    // font-size: 0.5rem;
+    width: 100%;
+  }
+  .nav {
+    @include centerChild;
+  }
+  .nav-social {
+    display: none;
+  }
+  .second-content {
+    display: block;
+    
+    .left-content {
+      margin-bottom: 150px;
+    }
+    p {
+      display: none;
+    }
+  }
+}
