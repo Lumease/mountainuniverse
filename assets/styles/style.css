@@ -315,7 +315,7 @@ body {
 
 @media screen and (max-width: 1315px) {
   .main-content h2 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .second-content {
     display: block;
@@ -340,9 +340,6 @@ body {
   body {
     width: 90%;
   }
-  .content h2 {
-    font-size: 10rem;
-  }
   .nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -358,7 +355,7 @@ body {
     display: none;
   }
   .main-content h2 {
-    font-size: 2rem;
+    font-size: 1rem;
     letter-spacing: 5px;
     width: 40%;
   }

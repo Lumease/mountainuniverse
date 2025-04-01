@@ -1,7 +1,7 @@
 @media screen and (max-width: 1315px) {
   .main-content {
     h2 {
-      font-size: 2rem;
+      font-size: 1rem;
     }
   }
 
@@ -32,11 +32,6 @@
   body {
     width: 90%;
   }
-  .content{
-    h2 {
-      font-size: 10rem;
-    }
-  }
   .nav {
     @include centerChild;
   }
@@ -45,7 +40,7 @@
   }
   .main-content {
     h2 {
-      font-size: 2rem;
+      font-size: 1rem;
       letter-spacing: 5px;
       width: 40%;
     }
