@@ -1,10 +1,41 @@
+@media screen and (max-width: 1315px) {
+  .main-content {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
+  .second-content {
+    display: block;
+    .left-content {
+      margin-bottom: 100px;
+    }
+    h3 {
+      margin: 20px 0;
+      font-size: 2rem;
+    }
+    p {
+      max-width: 60%;
+    }
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .main-content {
+    h2 {
+      font-size: 3rem;
+    }
+  }
+}
+
 @media screen and (max-width: 900px) {
   body {
     width: 90%;
   }
-  .header-title {
-    // font-size: 0.5rem;
-    width: 100%;
+  .content{
+    h2 {
+      font-size: 10rem;
+    }
   }
   .nav {
     @include centerChild;
@@ -13,25 +44,20 @@
     display: none;
   }
   .main-content {
-
     h2 {
       font-size: 2rem;
       letter-spacing: 5px;
       width: 40%;
     }
-    p{
-      
-    }
-
   }
   .second-content {
     display: block;
     
     .left-content {
-      margin-bottom: 150px;
+      margin-bottom: 100px;
     }
-    p {
-      display: none;
-    }
+  }
+  .contact {
+    display: block;
   }
 }
