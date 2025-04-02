@@ -1,162 +1,108 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/styles/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>La Montagne</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/styles/index.css">
 </head>
 
 <body>
-  <section class="header">
-    <div class="header-title">
-      <h1>La Montagne ça vous gagne</h1>
-    </div>
+  <header>
     <div class="header-content">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veniam fugit impedit laboriosam earum in?</p>
-      <div class="arrow">
-        <a href="">
-          <i class="fa-solid fa-arrow-down"></i>
-        </a>
-      </div>
+      <h1>la montagne<br>ça vous gagne</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius aspernatur deleniti repudiandae iure esse quam?
+      </p>
+      <span><a href="#main"><i class="fa-solid fa-arrow-down"></i></a></span>
     </div>
-  </section>
-
-  <section class="nav">
-    <div class="nav-list">
-      <ul>
-        <li>This is Massively</li>
-        <li>Generic page</li>
-        <li>Element reference</li>
+    <nav>
+      <ul class="nav-left">
+        <li>this is massively</li>
+        <li>generic page</li>
+        <li>elements reference</li>
       </ul>
-    </div>
+      <ul class="nav-right">
+        <li><i class="fa-brands fa-twitter"></i></li>
+        <li><i class="fa-brands fa-facebook-f"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <li><i class="fa-brands fa-github"></i></li>
+      </ul>
+    </nav>
+  </header>
 
-    <div class="nav-social">
-      <a href="https://twitter.com" target="_blank">
-        <i class="fa-brands fa-twitter"></i>
-      </a>
-      <a href="https://facebook.com" target="_blank">
-        <i class="fa-brands fa-facebook"></i>
-      </a>
-      <a href="https://instagram.com" target="_blank">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
-      <a href="https://github.com" target="_blank">
-        <i class="fa-brands fa-github"></i>
-      </a>
-    </div>
-  </section>
-
-  <section class="content">
-    <div class="main-content">
-      <h4>April 25, 2017</h4>
-      <h2>And this is a
-        massive headline</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus id architecto inventore sapiente ex illum
-        sunt rem mollitia impedit reiciendis molestiae dicta, praesentium accusantium officia?Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Quam perspiciatis tempora dolores qui dam.</p>
-      <img src="assets/img/pic01.jpg" alt="Saut dans le canyon">
-      <div class="btn-container">
-        <button>Full story</button>
-      </div>
-    </div>
-
-    <section class="second-content">
-      <div class="left-content">
-        <h4>April 24, 2017</h4>
-        <h3>Sed maghna
-          ipsum faucibus</h3>
-        <div class="img-left">
-          <img src="assets/img/pic02.jpg" alt="Paysage de montagne">
-        </div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam eius sed praesentium deserunt atque corrupti
-          sequi nemo magni reiciendis fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <div class="btn-container">
-          <button>Full story</button>
-        </div>
-      </div>
-
-      <div class="right-content">
-        <h4>April 22, 2017</h4>
-        <h3>Primis eget
-          imperdiet lorem</h3>
-        <div class="img-right">
-          <img src="assets/img/pic03.jpg" alt="Paysage de falaise">
-        </div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae blanditiis iure magnam asperiores tempora
-          ullam
-          omnis quia accusantium voluptate nulla. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-          reiciendis. </p>
-        <div class="btn-container">
-          <button>Full story</button>
-        </div>
+  <main id="main">
+    <section class="section1">
+      <span>April 25, 2017</span>
+      <h2>and this is a <br>massive headline</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil debitis quisquam, ipsa voluptate amet
+        voluptatum dolores numquam impedit illo sequi asperiores deleniti beatae? Illum, voluptatibus?</p>
+      <img src="./assets/img/pic01.jpg" alt="img-hiking">
+      <button class="btn">full story</button>
       </div>
     </section>
 
-    <section class="footer">
-      <div class="form">
-        <form method="post" action="#">
-          <div class="form-grid">
-            <div class="name">
-              <label for="name">Name</label>
-              <input type="text" id="name" />
-            </div>
-            <div class="email">
-              <label for="email">Email</label>
-              <input type="text" id="email" />
-            </div>
-            <div class="textarea">
-              <label for="message">Message</label>
-              <textarea id="message"></textarea>
-            </div>
-          </div>
-          <div class="btn-container">
-            <button>Send Message</button>
-          </div>
-        </form>
+    <section class="section2">
+      <div class="left-part">
+        <span>April 24, 2017</span>
+        <h3>sed magna<br>ipsum faucibus</h3>
+        <img src="./assets/img/pic02.jpg" alt="forest">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nihil fuga quia voluptate laudantium
+          dignissimos incidunt praesentium ipsam officiis laborum.</p>
+        <button class="btn">full story</button>
       </div>
+      <div class="right-part">
+        <span>April 22, 2017</span>
+        <h3>primis eget<br>imperdiet lorem</h3>
+        <img src="./assets/img/pic03.jpg" alt="forest">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nihil fuga quia voluptate laudantium
+          dignissimos incidunt praesentium ipsam officiis laborum.</p>
+        <button class="btn">full story</button>
+      </div>
+    </section>
+  </main>
 
-
-      <section class="contact">
-        <div class="contact-content">
-          <div class="address">
-            <h4>Address</h4>
-            <p>1234 Somewhere Road #87257
-              Nashville, TN 00000-0000
-            </p>
-          </div>
-          <div class="phone">
-            <h4>Phone</h4>
-            <p>(000)-0000</p>
-          </div>
-          <div class="email">
-            <h4>Email</h4>
-            <p>info@untitled.ltd</p>
-          </div>
-          <div class="social">
-            <h4>Social</h4>
-            <div class="social-icon">
-              <a href="https://twitter.com" target="_blank">
-                <i class="fa-brands fa-twitter"></i>
-              </a>
-              <a href="https://facebook.com" target="_blank">
-                <i class="fa-brands fa-facebook"></i>
-              </a>
-              <a href="https://instagram.com" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-              <a href="https://github.com" target="_blank">
-                <i class="fa-brands fa-github"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        </div>
-      </section>
+  <footer>
+    <form action="">
+      <label for="name">name</label>
+      <input type="text" id="name" autocomplete="off">
+      <label for="email">email</label>
+      <input type="text" id="email">
+      <label for="message">message</label>
+      <textarea id="message"></textarea>
+      <div class="submit-container">
+        <input type="submit" class="btn" value="send message">
+      </div>
+    </form>
+    <div class="infos-contact">
+      <div>
+        <h3>address</h3>
+        <p><br>1234 Somewhere Road #87257<br>Nashville, TN 00000-0000</p>
+      </div>
+      <div>
+        <h3>phone</h3>
+        <p>(000) 000-0000</p>
+      </div>
+      <div>
+        <h3>email</h3>
+        <p>info@untitled.ltd</p>
+      </div>
+      <div class="social">
+        <h3>social</h3>
+        <ul>
+          <li><i class="fa-brands fa-twitter"></i></li>
+          <li><i class="fa-brands fa-facebook-f"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-github"></i></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
