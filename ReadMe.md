@@ -1,6 +1,6 @@
 # Bienvenue sur le projet "Mountain universe" !
 
-Il s'agit d'un modèle de site vitrine en cours de développement. Vous pouvez suivre l'intégration via le code mis à jour sur GitHub.
+Il s'agit d'un modèle de site vitrine en cours de développement. Voici le lien direct :
 
 ## Description
 
@@ -56,7 +56,7 @@ Lumease - 2025.
 
 # Welcome to the "Mountain Universe" project!
 
-This is a showcase website model currently under development. You can follow the integration process via the updated code on GitHub.
+This is a showcase website model currently under development. Direct link :
 
 ## Description
 
