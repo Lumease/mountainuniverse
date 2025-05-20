@@ -50,7 +50,7 @@ Puis :
 
 ## Auteur
 
-Lumease - 2025.
+Lumease - 2025, tous droits réservés.
 
 --
 
@@ -106,4 +106,4 @@ Then:
 
 ## Author
 
-Lumease - 2025.
+Lumease - 2025, all rights reserved. 
